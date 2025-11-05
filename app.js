@@ -1,8 +1,8 @@
 
 // Función de saludo personalizado
-function nombreVehiculo(nombre) {
-    console.log(`¡Este es un excelente modelo ${nombre} de vehículo!`);
+function nombreAnimal(nombre) {
+    console.log(`¡Soy un Gato ${nombre}!`);
 }
 
 // Uso de la función
-nombreVehiculo("Toyota Corolla");
+nombreAnimal("Gato");
