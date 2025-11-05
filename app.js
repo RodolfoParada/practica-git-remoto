@@ -1,5 +1,5 @@
 
-// Función de saludo personalizado
+// Función de nomobre animal personalizado
 function nombreAnimal(nombre) {
     console.log(`¡Soy un Gato ${nombre}!`);
 }
