@@ -24,3 +24,35 @@ git push -u origin main
 ```
 
 ![Mi foto](/assets/img/ComandoClone.png)
+
+Creé el proyecto y luego lo cloné en mi equipo local. Posteriormente, desarrollé el ejercicio y realicé la tarea de crear tres ramas, efectuando distintos commits en los archivos correspondientes. Para ello, utilicé los siguientes comandos:
+
+# Crear una nueva rama
+```
+git checkout -b feature/nombreRama
+```
+
+#Enviar rama al remoto
+```
+git push origin feature/saludo-personalizado
+```
+
+# Cambiar a una rama
+```
+git checkout feature/nombreRama o main
+```
+# ver la lista de ramas 
+```
+git branch -a
+```
+
+# Agrega todos los archivos del proyecto al área de preparación
+```
+git add .
+```
+
+# Importante usar prefijos y un comentario descriptivo del cambio
+```
+git commit -m "first commit"
+```
+
