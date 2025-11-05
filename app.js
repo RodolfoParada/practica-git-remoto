@@ -1,9 +1,9 @@
-console.log("¡Hola desde GitHub!")
 
-// Función de saludo personalizado
-function saludarUsuario(nombre) {
-    console.log(`¡Hola, ${nombre}! Bienvenido a nuestro proyecto.`);
+
+// Función de cantante personalizado
+function nombreCantante(nombre) {
+    console.log(`¡Hola, Soy ${nombre}! Una Cantante.`);
 }
 
 // Uso de la función
-saludarUsuario("Desarrollador");
+nombreCantante("Ana");
